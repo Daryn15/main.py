@@ -1,17 +1,41 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+nothing  = 'None'
+boolean_var_true = True
+boolen_var_false = False
+hello_message = "Hello, Daryn"
+even_numbers = [2, hello_message, boolean_var_true, 3.5, 10]
+print(even_numbers[3])
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+even_numbers.append(7)
+print(id(even_numbers))
+print(even_numbers)
+#
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#
+user_age = 19
+user_name = "Alex"
+print(user_age > 18 or user_name == "Alex")
+
+mess = (1, 2, 3)
+mess[1]
+
+a = 15 // 3
+print( a )
+#
+#
+
+a = int(15 / 3)
+print(a, 5, 15, 25, 25, 35, sep="х")
+
+#user = ( "Kevin", )
+
+"""
+gggg
+dddd
+aaaa
+"""
+a = 1
+print(dir(a))
+print(a. real)
+print(dir(upper))
